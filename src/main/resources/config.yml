@@ -1,11 +1,5 @@
-# Set to false if you want to disable plugin
+# Enabled will allow the Listener to run, Message is what is displayed when player crafts blocked item, block-all-items name does as implies, items is list of items by name and id that are blocked/banned
 enabled: true
-# Message that is sent to the player after failed attempt
 message: '&cYou aren''t permitted to craft item %item%'
-# Set to true if you want to block ALL items in the game from crafting
 block-all-items: false
-# List of materials you would like to block from crafting if block-all-items is set to false
-items:
-  - 'LADDER'
-  - 'TORCH'
-  - 'GOLDEN_APPLE:1'
+items: []

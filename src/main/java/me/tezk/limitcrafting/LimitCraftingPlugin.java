@@ -1,7 +1,9 @@
 package me.tezk.limitcrafting;
 
+import java.util.Arrays;
 import java.util.List;
 
+import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -16,10 +18,12 @@ public final class LimitCraftingPlugin extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		load();
 		saveDefaultConfig();
+		load();
 		
-		getCommand("limitcrafting").setExecutor(new LimitCraftingCommand(this));
+		final PluginCommand plot = getCommand("limitcrafting");
+		plot.setExecutor(new LimitCraftingCommand(this));
+		plot.setAliases(Arrays.asList("lc","restrict"));
 		getServer().getPluginManager().registerEvents(new PlayerCraftListener(this), this);
 	}
 

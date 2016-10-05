@@ -6,7 +6,6 @@
 
     <groupId>me.tezk.limitcrafting</groupId>
     <artifactId>LimitCrafting</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <repositories>
         <repository>
@@ -24,5 +23,5 @@
     </dependency>
 
     </dependencies>
-
+    <version>4.2</version>
 </project>
