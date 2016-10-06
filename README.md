@@ -1,5 +1,7 @@
 ## LimitCrafting
-LimitCrafting is the lightweight solution to disable crafting configurable recipe's in Minecraft.
+LimitCrafting is the lightweight solution to disable crafting configurable recipes in Minecraft.
+
+___
 
 ### Configuration
 ```
@@ -52,5 +54,7 @@ limitcrafting.*:
   default: op
   description: users with this permission will be able to have all permissions for the plugin and use all commands and items in block list
 ```
+---
 Original plugin page can be found [here](https://www.spigotmc.org/resources/limitcrafting-1-9-disable-crafting-recipes.12962/).
+
 Original plugin source can be found [here](https://github.com/Tezk/LimitCrafting).
