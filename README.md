@@ -52,4 +52,5 @@ limitcrafting.*:
   default: op
   description: users with this permission will be able to have all permissions for the plugin and use all commands and items in block list
 ```
-Original plugin request can be found [here](https://www.spigotmc.org/threads/how-to-ban-crafting-an-item.95560/).
+Original plugin page can be found [here](https://www.spigotmc.org/resources/limitcrafting-1-9-disable-crafting-recipes.12962/).
+Original plugin source can be found [here](https://github.com/Tezk/LimitCrafting).
