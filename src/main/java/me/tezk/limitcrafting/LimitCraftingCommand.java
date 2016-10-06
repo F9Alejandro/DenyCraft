@@ -90,7 +90,7 @@ public class LimitCraftingCommand implements CommandExecutor {
 						if((args[1].equalsIgnoreCase("perm"))){
 							if (perm.hasPermission(sender,"limitcrafting.list.perm")){
 								
-								new LimitCraftingUtil(plugin).itemPermList();
+								new LimitCraftingUtil(plugin,sender).itemPermList();
 							}
 							else {
 								sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
